@@ -5,7 +5,6 @@ const getItems = require('./routes/getItems');
 const addItem = require('./routes/addItem');
 const updateItem = require('./routes/updateItem');
 const deleteItem = require('./routes/deleteItem');
-console.log('hello');
 app.use(express.json());
 app.use(express.static(__dirname + '/static'));
 
